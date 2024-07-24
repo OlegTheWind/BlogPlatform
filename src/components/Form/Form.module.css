@@ -1,0 +1,72 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: #f3f7fa;
+    min-height: 970px;
+}
+.formIn {
+    width: 384px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 0 #d9d9d9;
+    border-radius: 3px;
+    padding: 35px;
+}
+
+.customLabel {
+}
+
+.customFormItem + .ant-row {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.userName {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    flex-direction: column;
+}
+.ant-form-item-required {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    flex-direction: column;
+}
+.headerSpanStyle {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-bottom: 10px;
+}
+.buttonFormHeight {
+    height: 40px;
+}
+.styleTextForm {
+    font-family: Roboto, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.styleTextFormColor {
+    color: #8c8c8c;
+}
+.styleCheckbox {
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #595959;
+}

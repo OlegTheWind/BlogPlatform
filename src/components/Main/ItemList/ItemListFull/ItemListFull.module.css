@@ -1,0 +1,148 @@
+.background_color {
+    background-color: #f3f7fa;
+}
+
+.name_date {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.user_info {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article {
+    width: 938px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 0 #d9d9d9;
+    border-radius: 3px;
+    padding: 10px;
+}
+.styleGroupTextButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+.itemFullDate {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+    color: #00000080;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.itemFullUsername {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #000000d9;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ItemFullDescription {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+    color: #00000080;
+    word-break: break-word;
+}
+
+.itemFullHeader {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #1890ff;
+    margin: 0;
+}
+.itemFullBody {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.buttonGreen {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+}
+.buttonGreen:focus {
+    color: #52c41a !important;
+}
+.buttonGreen:hover {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+}
+.buttonGreen:active {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+    background: #52c41a !important;
+}
+.modal {
+    height: 104px;
+    width: 240px;
+    position: absolute;
+    top: 165px;
+    right: 100px;
+    background-color: #ffffff;
+}
+.buttonModalYes {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 39px;
+    height: 24px;
+    border-color: #1890ff;
+    background-color: #1890ff;
+}
+.buttonModalNo {
+    position: absolute;
+    right: 55px;
+    bottom: 0;
+    width: 34px;
+    height: 24px;
+}
+.ModalText {
+    position: absolute;
+    width: 184px;
+    height: 44px;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    top: 10px;
+    left: 20px;
+}
+/*.ModalText:before {*/
+/*    width: 16px;*/
+/*    height: 22px;*/
+/*    content: "";*/
+/*    background-repeat: no-repeat;*/
+/*    background-image: url("src/img/Frame.png");*/
+/*}*/

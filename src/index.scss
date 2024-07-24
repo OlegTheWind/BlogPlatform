@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Inter UI';
+    src: url('../src/Font/Inter-UI-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../src/Font/Roboto-Regular.ttf') format('opentype');
+}
 .app_background_color {
     background-color: #f3f7fa;
 }

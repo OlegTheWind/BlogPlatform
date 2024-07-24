@@ -1,0 +1,77 @@
+.buttonList {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    padding-right: 16px;
+}
+.profileList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttonGreen {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+}
+.buttonSize {
+    height: 25px;
+}
+.buttonGreen:focus {
+    color: #52c41a !important;
+}
+.buttonGreen:hover {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+}
+.buttonGreen:active {
+    color: #52c41a !important;
+    border-color: #52c41a !important;
+}
+
+.headerUserName {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.headerBlog {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #000000d9;
+    padding-left: 22px;
+}
+
+.buttonLogOut {
+    height: 35px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.headerStyleHeight {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: rgba(0, 0, 0, 0.88);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.HeaderStyleName {
+    font-family:
+        Inter UI,
+        serif;
+}

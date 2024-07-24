@@ -1,0 +1,89 @@
+.list_item_meta {
+    display: grid;
+    grid-template-areas:
+        'title_info . user_info'
+        'tag tag user_info'
+        'title_content title_content user_info';
+    gap: 10px;
+}
+
+.header_list {
+    grid-area: title_info;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.tag_list {
+    grid-area: tag;
+}
+
+.content_list {
+    grid-area: title_content;
+}
+
+.user_info {
+    grid-area: user_info;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.user_info_name_and_date {
+    display: flex;
+    flex-direction: column;
+}
+
+.ListColor {
+    background-color: white;
+    margin-bottom: 10px;
+    min-width: 938px;
+}
+
+.PaginationCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.headerTitle {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.itemText {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.itemUsername {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.styleDateTitle {
+    font-family:
+        Inter UI,
+        serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left;
+    color: #00000080;
+    display: flex;
+    flex-direction: row-reverse;
+}

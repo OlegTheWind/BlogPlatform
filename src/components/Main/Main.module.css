@@ -1,4 +1,8 @@
 .main {
     display: flex;
-    background-color: aqua;
+    background-color: #f3f7fa;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
 }
